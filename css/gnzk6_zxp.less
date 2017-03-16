@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'mmb';
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+}
+
+.icon {
+  font-family: mmb;
+}
+
+.icon-back::after {
+  content: "<";
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*头部header*/
+#header {
+  height: 44px;
+  width: 100%;
+  background: #ff841d;
+  color: #fff;
+  display: flex;
+  div {
+    flex: 1;
+  }
+  .icon-back {
+    display: block;
+    width: 50px;
+    text-align: center;
+    line-height: 44px;
+  }
+  h1 {
+    flex: 8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 44px;
+  }
+  .home > a {
+    display: block;
+    height: 44px;
+    width: 100%;
+    background: url(../images/header_app.png) no-repeat center;
+    background-size: 32px;
+  }
+}
+
+/*主体部分*/
+.row {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  .col-xs-6 {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    a {
+      display: block;
+      font-size: 14px;
+      div {
+        padding: 0 8px;
+      }
+      .img {
+        overflow: hidden;
+        margin: 10px auto;
+        > img {
+          display: block;
+          width: 140px;
+          height: 140px;
+          margin: 0 auto;
+        }
+      }
+      .title {
+        height: 36px;
+        padding: 0 8px;
+        overflow: hidden;
+        font: 14px/18px "微软雅黑";
+        color: #333;
+        text-align: left;
+      }
+      .price {
+        height: 18px;
+        font-size: 12px;
+        color: #ff6c00;
+        margin-top: 5px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .info {
+        font-size: 12px;
+        color: #a1a1a1;
+        margin-top: 10px;
+        overflow: hidden;
+        padding: 6px 8px;
+      }
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+}
+
+/*底部*/
+.footer {
+  padding-top: 10px;
+  background-color: #fff;
+  .foot {
+    height: 30px;
+    > div {
+      border: 1px solid #ccc;
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      a {
+        color: #000;
+        text-decoration: none !important;
+        > img {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+
+  p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  p {
+    > a {
+      color: red;
+    }
+  }
+}

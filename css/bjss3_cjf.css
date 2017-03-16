@@ -1,0 +1,175 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+#header {
+  background-color: #ff841d;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 50px;
+}
+#header > .logo {
+  padding: 12px;
+}
+#header > .logo img {
+  height: 25px;
+}
+#header > .app {
+  float: right;
+  padding: 0 7px;
+}
+#header > .app img {
+  height: 34px;
+}
+#search {
+  border-bottom: 1px solid #e6e6e6;
+}
+#search > form {
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+#search > form > input[type="search"] {
+  width: 100%;
+  padding-left: 5%;
+  background-color: #f1f1f1;
+}
+#search > form > input[type="submit"] {
+  background-color: #ff841d;
+  color: #fff;
+  padding: 0 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#search input {
+  border-radius: 15px;
+  height: 30px;
+}
+#product-info > .info-title {
+  background: #f1f1f1;
+  padding: 8px 15px;
+}
+#product-info > .info-title > .title-left {
+  height: 34px;
+  line-height: 34px;
+  max-width: 80%;
+  overflow: hidden;
+}
+#product-info > .info-title > .title-left > a {
+  display: inline-block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+#product-info > .info-title > .title-left > a:nth-child(3) {
+  max-width: 40%;
+  height: 100%;
+}
+#product-info > .product-bijia h3 {
+  width: 90%;
+  line-height: 25px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+#product-info > .product-bijia .pro-img {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+}
+#product-info > .product-bijia .collect {
+  position: relative;
+}
+#product-info > .product-bijia .collect > a {
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: -39px;
+}
+#product-info > .product-bijia .collect > a img {
+  width: 39px;
+  height: 39px;
+}
+#product-info > .product-bijia .pro-shop > a {
+  display: block;
+  margin: 5px;
+}
+#product-info > .product-bijia .pro-shop > p {
+  margin: 5px;
+}
+#product-info > .product-bijia > .pro-evaluate {
+  height: 36px;
+  border-top: 4px solid #373737;
+  background: #cccccc;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+#product-info > .product-bijia .pro-evaluate-list {
+  padding: 0 10px;
+  border-bottom: 1px solid #cccccc;
+}
+#product-info > .product-bijia .pro-evaluate-list > p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+#product-info > .product-bijia .pro-evaluate-list > p:nth-child(1) .comName {
+  float: left;
+}
+#product-info > .product-bijia .pro-evaluate-list > p:nth-child(1) .comTime {
+  float: right;
+}
+#product-info > .product-bijia .pro-evaluate-list > p:nth-child(2) {
+  text-align: right;
+}
+#product-info > .product-bijia .pro-evaluate-list > p:last-child {
+  text-align: left;
+}
+#product-info > .product-bijia > .see-more {
+  height: 32px;
+  line-height: 32px;
+  margin: 20px 10px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+}
+#footer {
+  margin-top: 10px;
+}
+#footer > .row > div {
+  text-align: center;
+  border: 1px solid #cccccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .row > div > a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#footer > .row > div > a > img {
+  width: 15px;
+  height: 15px;
+}
+#footer p {
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+#footer p a:nth-child(1) {
+  color: red;
+}
+#footer p a:nth-child(2) {
+  color: #000;
+}

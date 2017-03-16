@@ -1,0 +1,162 @@
+/*��Ʒ����*/
+.mb_news {
+  padding: 4px 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  /*��Ʒ����*/
+  /*�л�����*/
+}
+.mb_news h3 {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin: 10px auto 5px;
+  font-weight: 700;
+}
+.mb_news > p:nth-of-type(1) {
+  font-size: 15px;
+  color: #ff6c00;
+  font-weight: 700;
+}
+.mb_news > p:nth-of-type(2) {
+  font-size: 10px;
+  color: #666;
+  margin: 12px auto;
+}
+.mb_news div.msg img {
+  width: 120px;
+  float: right;
+}
+.mb_news div.msg p {
+  margin: 6px 0;
+  line-height: 24px;
+  color: #606060;
+  font-size: 16px;
+}
+.mb_news .mb_city {
+  padding: 0 10px;
+  /*ǰ������*/
+}
+.mb_news .mb_city .bigBox img {
+  float: left;
+  max-width: 100%;
+  margin-bottom: 20px ;
+  display: inline-block;
+}
+.mb_news .mb_city .bigBox ul#disstorck {
+  overflow: hidden;
+  width: 138px;
+  margin: 0 auto;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  border-color: #f1f1f1 #f1f1f1 #dbdbdb #f1f1f1;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  font-size: 12px;
+  padding: 0 10px 3px;
+}
+.mb_news .mb_city .bigBox ul#disstorck li {
+  padding: 0 10px;
+  border-bottom: 1px dotted #cccccc;
+}
+.mb_news .mb_city .bigBox ul#disstorck li a {
+  line-height: 20px;
+  font-size: 12px;
+  display: block;
+}
+.mb_news .mb_city .bigBox ul#disstorck li a span {
+  display: block;
+}
+.mb_news .mb_city .bigBox ul#disstorck li a span strong {
+  float: right;
+  color: #f27b04;
+}
+.mb_news .mb_city .mb_go > a {
+  display: block;
+  background-color: #FF9000;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+.mb_news .mb_city .mb_go > a span {
+  padding-right: 5px;
+}
+.mb_news .mb_city .cu-content-pl {
+  border-top: 1px solid #cccccc;
+}
+.mb_news .mb_city .cu-content-pl .tit {
+  line-height: 31px;
+  padding: 4px;
+  font-size: 16px;
+}
+.mb_news .mb_city .cu-content-pl .reply {
+  width: 100%;
+}
+.mb_news .mb_city .cu-content-pl .reply .form {
+  width: 100%;
+  padding: 4px 10px;
+}
+.mb_news .mb_city .cu-content-pl .reply .form textarea {
+  width: 100%;
+  height: 70px;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-bottom: none;
+}
+.mb_news .mb_city .cu-content-pl .reply .form .ctrl {
+  width: 100%;
+  background: #fbfbfb;
+  border: 1px solid #cccccc;
+  margin-top: -1px;
+  overflow: hidden;
+  border-top: solid 1px #f2f2f2;
+}
+.mb_news .mb_city .cu-content-pl .reply .form .ctrl input {
+  line-height: 37px;
+  width: 100px;
+  background: #ff841d;
+  float: right;
+}
+.mb_news .mb_city .cu-content-pl .list ul li {
+  padding: 18px 10px;
+  border-bottom: 1px dashed #cccccc;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .userimg {
+  float: left;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .userimg img {
+  width: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  line-height: 45px;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con {
+  padding-left: 5px;
+  overflow: hidden;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con .name {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con .name .username {
+  float: left;
+  color: #5997c0;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con .name .time {
+  float: right;
+  color: #999999;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con .content {
+  font-size: 15px;
+}
+.mb_news .mb_city .cu-content-pl .list ul li .con .content span .yinyong {
+  color: #5799CC;
+  font-size: 13px;
+}
+/*��ά��*/
+.mb_evm {
+  padding: 10px 10px;
+}
+.mb_evm img {
+  width: 100%;
+}

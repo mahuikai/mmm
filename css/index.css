@@ -1,0 +1,191 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.row {
+  margin: 0;
+}
+.col-xs-3 {
+  padding: 0;
+}
+#header {
+  background-color: #ff841d;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 50px;
+}
+#header > .logo {
+  padding: 12px;
+}
+#header > .logo img {
+  height: 25px;
+}
+#header > .app {
+  float: right;
+  padding: 0 7px;
+}
+#header > .app img {
+  height: 34px;
+}
+#search {
+  border-bottom: 1px solid #e6e6e6;
+}
+#search > form {
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+#search > form > input[type="search"] {
+  width: 100%;
+  padding-left: 5%;
+  background-color: #f1f1f1;
+}
+#search > form > input[type="submit"] {
+  background-color: #ff841d;
+  color: #fff;
+  padding: 0 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#search input {
+  border-radius: 15px;
+  height: 30px;
+}
+#menu {
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 10px solid #e6e6e6;
+}
+#menu > .row a {
+  display: block;
+  text-align: center;
+  color: #5a5a5a;
+}
+#menu > .row a > img {
+  height: 50px;
+  width: 50px;
+}
+#menu > .row a > p {
+  margin: 0 0 10px;
+}
+#menu > .row > div:nth-last-child(-n+4) {
+  display: none;
+}
+#recommen > .recommen-title {
+  position: relative;
+  height: 35px;
+  background-color: #ff841d;
+  top: -5px;
+}
+#recommen > .recommen-title > span {
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+}
+#recommen > .recommen-title > img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 10px;
+}
+#recommen > .recommen-list > .media {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+#recommen > .recommen-list > .media > a {
+  display: block;
+  position: relative;
+}
+#recommen > .recommen-list > .media > a > img {
+  width: 100px;
+  height: 100px;
+}
+#recommen > .recommen-list > .media > .media_right {
+  position: absolute;
+  top: 10px;
+  left: 130px;
+}
+#recommen > .recommen-list > .media > .media_right > a {
+  color: #000;
+}
+#recommen > .recommen-list > .media > .media_right > a > h5 {
+  padding: 10px 0;
+}
+#recommen > .recommen-list > .media > .media_right > a > .price {
+  color: #ff841d;
+}
+#recommen > .recommen-list > .media > .media_right .form {
+  font-size: 12px;
+  color: #666;
+}
+#recommen > .recommen-list > .media > .comment {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font-size: 12px;
+}
+#recommen > .recommen-list > .media > .comment > a {
+  color: #666;
+}
+#recommen > .recommen-list > .media > .comment > a i {
+  background: url(http://localhost:63342/MMBAPP/images/comment.png) no-repeat center;
+  width: 17px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 5px;
+}
+#recommen > .recommen-more {
+  padding: 10px;
+}
+#recommen > .recommen-more > a {
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 5px;
+}
+#footer {
+  margin-top: 10px;
+}
+#footer > .row > div {
+  text-align: center;
+  border: 1px solid #cccccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .row > div > a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#footer > .row > div > a > img {
+  width: 15px;
+  height: 15px;
+}
+#footer p {
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+#footer p a:nth-child(1) {
+  color: red;
+}
+#footer p a:nth-child(2) {
+  color: #000;
+}

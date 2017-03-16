@@ -1,0 +1,233 @@
+#FPTV {
+  background-color: #f2f2f2;
+}
+#FPTV > .same h3 {
+  color: #874604;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 10px;
+  border: 1px solid #c8c8c8;
+  border-left: none;
+  border-right: none;
+}
+#FPTV > .FPTVBrand ul {
+  margin-bottom: 0;
+}
+#FPTV > .FPTVBrand ul li {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+#FPTV > .FPTVBrand ul li .ranking {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #c9c9c9;
+  color: #FFFFFF;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+  vertical-align: top;
+}
+#FPTV > .FPTVBrand ul li div {
+  display: inline-block;
+}
+#FPTV > .FPTVBrand ul li div p {
+  font-size: 16px;
+}
+#FPTV > .FPTVBrand ul li div i {
+  font-style: normal;
+  font-size: 12px;
+  color: #999;
+  margin-top: 3px;
+}
+#FPTV > .FPTVBrand ul li .glyphicon {
+  color: #ccc;
+  font-size: 22px;
+}
+#FPTV > .FPTVBrand ul li:nth-child(1) > a > .ranking {
+  background: #f10e0e;
+}
+#FPTV > .FPTVBrand ul li:nth-child(2) > a > .ranking {
+  background: #ff9314;
+}
+#FPTV > .FPTVBrand ul li:nth-child(3) > a > .ranking {
+  background: #8adf5b;
+}
+#FPTV > .FPTVBrand ul li:last-child {
+  border-bottom: none;
+}
+#FPTV > .FPTVSales .content {
+  padding: 10px;
+}
+#FPTV > .FPTVSales .content .media {
+  margin-top: 15px;
+}
+#FPTV > .FPTVSales .content .media:first-child {
+  margin-top: 0;
+}
+#FPTV > .FPTVSales .content .media,
+#FPTV > .FPTVSales .content .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+#FPTV > .FPTVSales .content .media-body {
+  width: 10000px;
+}
+#FPTV > .FPTVSales .content .media-body .title {
+  color: #333333;
+  line-height: 22px;
+  min-height: 44px;
+}
+#FPTV > .FPTVSales .content .bodyContent {
+  height: 25px;
+  margin-top: 4px;
+}
+#FPTV > .FPTVSales .content .bodyContent > .price {
+  font-size: 18px;
+  color: #ea3900;
+  vertical-align: middle;
+}
+#FPTV > .FPTVSales .content .other {
+  font-size: 12px;
+  color: #999999;
+}
+#FPTV > .FPTVSales .content .other em {
+  font-style: normal;
+  margin-right: 10px;
+}
+#FPTV > .FPTVSales .content .media-left a {
+  display: block;
+}
+#FPTV > .FPTVSales .content .media-object {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+#FPTV > .FPTVSales .content .media-object.img-thumbnail {
+  max-width: none;
+}
+#FPTV > .FPTVSales .content .media-right,
+#FPTV > .FPTVSales .content .media > .pull-right {
+  padding-left: 10px;
+}
+#FPTV > .FPTVSales .content .media-left,
+#FPTV > .FPTVSales .content .media > .pull-left {
+  padding-right: 10px;
+}
+#FPTV > .FPTVSales .content .media-left,
+#FPTV > .FPTVSales .content .media-right,
+#FPTV > .FPTVSales .content .media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+#FPTV > .FPTVSales .content .media-middle {
+  vertical-align: middle;
+}
+#FPTV > .FPTVSales .content .media-bottom {
+  vertical-align: bottom;
+}
+#FPTV > .FPTVSales .content .media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#FPTV > .FPTVSales .content .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+#FPTV > .FPTVComment .content {
+  padding: 10px;
+}
+#FPTV > .FPTVComment .content .protit {
+  margin-bottom: 10px;
+}
+#FPTV > .FPTVComment .content .protit img {
+  display: inline-block;
+  margin-right: 10px;
+  height: 80px;
+  width: 80px;
+}
+#FPTV > .FPTVComment .content .protit p {
+  color: #999999;
+  line-height: 22px;
+  font-size: 14px;
+  word-break: break-all;
+}
+#FPTV > .FPTVComment .content .plbox {
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 10px;
+  position: relative;
+}
+#FPTV > .FPTVComment .content .plbox .glyphicon {
+  color: #f8f8f8;
+  position: absolute;
+  top: -10px;
+  left: 29px;
+}
+#FPTV > .FPTVComment .content .plbox a {
+  display: block;
+}
+#FPTV > .FPTVComment .content .plbox a .name {
+  color: #4f6900;
+}
+#FPTV > .FPTVComment .content .plbox a .name span {
+  vertical-align: middle;
+}
+#FPTV > .FPTVComment .content .plbox a .name i {
+  vertical-align: middle;
+  font-style: normal;
+  color: #999999;
+}
+#FPTV > .FPTVComment .content .plbox a .con {
+  color: #000000;
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: 15px;
+}
+.star {
+  margin-top: 2px;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  vertical-align: middle;
+  background: url("../images/star.svg");
+  background-size: 20px;
+}
+.star .star4 {
+  display: inline-block;
+  width: 78px;
+  height: 20px;
+  background: url("../images/star1.svg");
+  background-size: 20px;
+}
+.star .star5 {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  background: url("../images/star1.svg");
+  background-size: 20px;
+}
+.star .star3 {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  background: url("../images/star1.svg");
+  background-size: 20px;
+}
+.star .star2 {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background: url("../images/star1.svg");
+  background-size: 20px;
+}
+.star .star1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/star1.svg");
+  background-size: 20px;
+}

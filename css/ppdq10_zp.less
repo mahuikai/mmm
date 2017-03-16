@@ -1,0 +1,253 @@
+#FPTV {
+  background-color: #f2f2f2;
+  > .same {
+    h3 {
+      color: #874604;
+      line-height: 36px;
+      font-size: 14px;
+      font-weight: 600;
+      padding-left: 10px;
+      border: 1px solid #c8c8c8;
+      border-left: none;
+      border-right: none;
+    }
+  }
+  > .FPTVBrand {
+    ul {
+      margin-bottom: 0;
+      li {
+        border-bottom: 1px solid #e7e7e7;
+        padding: 10px;
+
+        .ranking {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          background: #c9c9c9;
+          color: #FFFFFF;
+          margin: 0 10px 0 0;
+          font-size: 14px;
+          vertical-align: top;
+        }
+
+        div {
+          display: inline-block;
+          p {
+            font-size: 16px;
+          }
+          i {
+            font-style: normal;
+            font-size: 12px;
+            color: #999;
+            margin-top: 3px;
+          }
+
+        }
+        .glyphicon {
+          color: #ccc;
+          font-size: 22px;
+
+        }
+
+      }
+      li:nth-child(1) > a > .ranking {
+        background: #f10e0e;
+      }
+      li:nth-child(2) > a > .ranking {
+        background: #ff9314;
+      }
+      li:nth-child(3) > a > .ranking {
+        background: #8adf5b;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  > .FPTVSales {
+    .content {
+      padding: 10px;
+      .media {
+        margin-top: 15px;
+      }
+      .media:first-child {
+        margin-top: 0;
+      }
+      .media,
+      .media-body {
+        overflow: hidden;
+        zoom: 1;
+        //padding: 10px;
+      }
+      .media-body {
+        width: 10000px;
+      }
+      .media-body .title {
+        color: #333333;
+        line-height: 22px;
+        min-height: 44px;
+      }
+      .bodyContent {
+        height: 25px;
+        margin-top: 4px;
+        > .price {
+          font-size: 18px;
+          color: #ea3900;
+          vertical-align: middle;
+        }
+      }
+      .other {
+        font-size: 12px;
+        color: #999999;
+        em {
+          font-style: normal;
+          margin-right: 10px;
+        }
+      }
+
+      .media-left a {
+        display: block;
+      }
+      .media-object {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+      .media-object.img-thumbnail {
+        max-width: none;
+      }
+      .media-right,
+      .media > .pull-right {
+        padding-left: 10px;
+      }
+      .media-left,
+      .media > .pull-left {
+        padding-right: 10px;
+      }
+      .media-left,
+      .media-right,
+      .media-body {
+        display: table-cell;
+        vertical-align: top;
+      }
+      .media-middle {
+        vertical-align: middle;
+      }
+      .media-bottom {
+        vertical-align: bottom;
+      }
+      .media-heading {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+      .media-list {
+        padding-left: 0;
+        list-style: none;
+      }
+    }
+  }
+  > .FPTVComment {
+    .content {
+      padding: 10px;
+      .protit {
+        margin-bottom: 10px;
+        img {
+          display: inline-block;
+          margin-right: 10px;
+          height: 80px;
+          width: 80px;
+        }
+        p {
+          color: #999999;
+          line-height: 22px;
+          font-size: 14px;
+          word-break: break-all;
+        }
+
+      }
+      .plbox {
+        background: #f8f8f8;
+        padding: 10px;
+        border: 1px solid #e7e7e7;
+        margin-bottom: 10px;
+        position: relative;
+        .glyphicon {
+          color: #f8f8f8;
+          position: absolute;
+          top: -10px;
+          left: 29px;
+        }
+        a {
+          display: block;
+          .name {
+            color: #4f6900;
+            span {
+              vertical-align: middle;
+            }
+            i {
+              vertical-align: middle;
+              font-style: normal;
+              color: #999999;
+            }
+          }
+          .con {
+            color: #000000;
+            margin-top: 10px;
+            line-height: 22px;
+            font-size: 15px;
+
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//评分
+.star {
+  margin-top: 2px;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  vertical-align: middle;
+  background: url("../images/star.svg");
+  background-size: 20px;
+  .star4 {
+    display: inline-block;
+    width: 78px;
+    height: 20px;
+    background: url("../images/star1.svg");
+    background-size: 20px;
+  }
+  .star5 {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background: url("../images/star1.svg");
+    background-size: 20px;
+  }
+  .star3 {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    background: url("../images/star1.svg");
+    background-size: 20px;
+  }
+  .star2 {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: url("../images/star1.svg");
+    background-size: 20px;
+  }
+  .star1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/star1.svg");
+    background-size: 20px;
+  }
+}

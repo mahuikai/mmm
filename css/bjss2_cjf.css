@@ -1,0 +1,183 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+#header {
+  background-color: #ff841d;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 50px;
+}
+#header > .logo {
+  padding: 12px;
+}
+#header > .logo img {
+  height: 25px;
+}
+#header > .app {
+  float: right;
+  padding: 0 7px;
+}
+#header > .app img {
+  height: 34px;
+}
+#search {
+  border-bottom: 1px solid #e6e6e6;
+}
+#search > form {
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+#search > form > input[type="search"] {
+  width: 100%;
+  padding-left: 5%;
+  background-color: #f1f1f1;
+}
+#search > form > input[type="submit"] {
+  background-color: #ff841d;
+  color: #fff;
+  padding: 0 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#search input {
+  border-radius: 15px;
+  height: 30px;
+}
+#product > .product-title {
+  line-height: 36px;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 0 10px;
+  overflow: hidden;
+}
+#product > .product-title > div > a {
+  color: #333;
+  margin-right: 15px;
+}
+#product > .product-title > button {
+  width: 60px;
+  line-height: 26px;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  cursor: pointer;
+}
+#product > .product-title > button:hover {
+  background: #f1f1f1;
+}
+#product > .product-list a {
+  display: inline-block;
+}
+#product > .product-list > .media {
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+#product > .product-list > .media > .media-left img {
+  width: 100px;
+  height: 100px;
+}
+#product > .product-list > .media > .media-right {
+  position: absolute;
+  top: 25px;
+  left: 110px;
+}
+#product > .product-list > .media > .media-right > a:first-child {
+  color: #333;
+  line-height: 15px;
+}
+#product > .product-list > .media > .media-right > p {
+  line-height: 26px;
+  color: red;
+  margin: 0;
+}
+#product > .product-list > .media > .media-right > a:nth-child(3) {
+  font-size: 10px;
+}
+#product > .product-list > .media > .media-right > a:nth-child(4) {
+  font-size: 10px;
+}
+#product > .product-page {
+  padding: 10px;
+  position: relative;
+}
+#product > .product-page input {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: absolute;
+}
+#product > .product-page input:hover {
+  background: #f1f1f1 ;
+}
+#product > .product-page .btn-pre {
+  left: 10px;
+  top: 10px;
+}
+#product > .product-page .btn-next {
+  right: 10px;
+  top: 10px;
+}
+#product > .product-page > .dropdown {
+  position: relative;
+  text-align: center;
+}
+#product > .product-page > .dropdown > .btn {
+  width: 100px;
+}
+#product > .product-page > .dropdown > .dropdown-menu {
+  max-width: 100px;
+  min-width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  text-align: center;
+}
+#product > .product-page > .dropdown > .dropdown-menu li {
+  cursor: pointer;
+}
+#footer {
+  margin-top: 10px;
+}
+#footer > .row > div {
+  text-align: center;
+  border: 1px solid #cccccc;
+  height: 30px;
+  line-height: 30px;
+}
+#footer > .row > div > a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#footer > .row > div > a > img {
+  width: 15px;
+  height: 15px;
+}
+#footer p {
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+#footer p a:nth-child(1) {
+  color: red;
+}
+#footer p a:nth-child(2) {
+  color: #000;
+}

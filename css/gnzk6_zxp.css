@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'mmb';
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+}
+.icon {
+  font-family: mmb;
+}
+.icon-back::after {
+  content: "<";
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+/*ͷ��header*/
+#header {
+  height: 44px;
+  width: 100%;
+  background: #ff841d;
+  color: #fff;
+  display: flex;
+}
+#header div {
+  flex: 1;
+}
+#header .icon-back {
+  display: block;
+  width: 50px;
+  text-align: center;
+  line-height: 44px;
+}
+#header h1 {
+  flex: 8;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 44px;
+}
+#header .home > a {
+  display: block;
+  height: 44px;
+  width: 100%;
+  background: url(../images/header_app.png) no-repeat center;
+  background-size: 32px;
+}
+/*���岿��*/
+.row {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.row .col-xs-6 {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.row .col-xs-6 a {
+  display: block;
+  font-size: 14px;
+}
+.row .col-xs-6 a div {
+  padding: 0 8px;
+}
+.row .col-xs-6 a .img {
+  overflow: hidden;
+  margin: 10px auto;
+}
+.row .col-xs-6 a .img > img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+.row .col-xs-6 a .title {
+  height: 36px;
+  padding: 0 8px;
+  overflow: hidden;
+  font: 14px/18px "΢���ź�";
+  color: #333;
+  text-align: left;
+}
+.row .col-xs-6 a .price {
+  height: 18px;
+  font-size: 12px;
+  color: #ff6c00;
+  margin-top: 5px;
+  text-align: left;
+  overflow: hidden;
+}
+.row .col-xs-6 a .info {
+  font-size: 12px;
+  color: #a1a1a1;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 6px 8px;
+}
+.row .col-xs-6 a:hover {
+  text-decoration: none;
+}
+/*�ײ�*/
+.footer {
+  padding-top: 10px;
+  background-color: #fff;
+}
+.footer .foot {
+  height: 30px;
+}
+.footer .foot > div {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.footer .foot > div a {
+  color: #000;
+  text-decoration: none !important;
+}
+.footer .foot > div a > img {
+  width: 15px;
+  height: 15px;
+}
+.footer p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+.footer p > a {
+  color: red;
+}
